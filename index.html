@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="content">
+    <div class="text">
+        <p>ExchangePrice</p>
+        <input type="number" id="ExchangePrice" value="74.65">
+        <input type="number" id="days" value="1">
+        <p>your Wallet</p>
+        <input type="number" id="cash" value="1000">
+        <p>Your Dollars</p>
+        <input type="number" id="dollar" value="0">
+
+    </div>
+    <div class="buttons">
+        <button id="startBtn">Calculate for the next day</button>
+        <button id="buyBtn">buy</button>
+        <button id="sellBtn">sell</button>
+    </div>
+</div>
+
+
+<div class="container">
+    <canvas id="myChart"></canvas>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
